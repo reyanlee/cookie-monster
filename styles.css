@@ -1,0 +1,38 @@
+#nav-bar {
+	height: 150px;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+
+li {
+	flex-basis: 150px;
+}
+
+li a {
+	color: #666;
+}
+
+#top, #middle, #bottom {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#cookie2, #cookie3, #cookie4 {
+	padding-top: 15px;
+}
+
+body {
+	font-family: Georgia, Georgia, serif;
+}
+
